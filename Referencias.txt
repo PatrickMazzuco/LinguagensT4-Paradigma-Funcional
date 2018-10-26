@@ -1,0 +1,1 @@
+Bases para readFile e writeFile: https://learnxinyminutes.com/docs/standard-ml/
