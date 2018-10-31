@@ -1,1 +1,2 @@
 Bases para readFile e writeFile: https://learnxinyminutes.com/docs/standard-ml/
+Tabela ASCII: https://www.ime.usp.br/~glauber/html/acentos.htm
