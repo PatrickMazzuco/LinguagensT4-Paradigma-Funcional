@@ -1,15 +1,7 @@
 
 public class Main {
-
-	public static void main(String[] args) {
-		System.out.println(removeAccent("cásá"));
-		
-			
-			
-			
-		}
 	
-	private static String removeAccent(String s) {
+	private String removeAccent(String s) {
 		
 		char[] c = s.toCharArray();
 		for(int i=0; i<s.length();i++) {
