@@ -1,4 +1,4 @@
-(*Versão 0.0.3*)
+(*Versão 0.0.4*)
 
 fun writeFile(filename : string, text : string) =
     let val file = TextIO.openOut(filename)
