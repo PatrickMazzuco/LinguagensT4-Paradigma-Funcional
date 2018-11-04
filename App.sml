@@ -1,8 +1,8 @@
 (*Versão 0.0.1*)
 
-fun readPoem(filename) =
+fun readFile(filename) =
     let val file = TextIO.openIn filename
-        val poem = TextIO.inputAll file
+        val text = TextIO.inputAll file
         val _ = TextIO.closeIn file
-    in String.tokens (fn c => c = #"\n") poem
+    in String.tokens (fn c => c = #"\n") text
     end
