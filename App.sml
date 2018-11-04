@@ -1,8 +1,7 @@
 (*Versão 0.0.1*)
 
-fun writePoem(filename) =
+fun writeFile(filename : string, text : string) =
     let val file = TextIO.openOut(filename)
-        val _ = TextIO.output(file, "Roses are red,\nViolets are blue.\n")
-        val _ = TextIO.output(file, "I have a gun.\nGet in the van.\n")
+        val _ = TextIO.output(file, text)
     in TextIO.closeOut(file)
     end
